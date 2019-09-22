@@ -8,7 +8,7 @@
 </head>
 <body style="height: 100vh; margin: 0; display:flex; justify-content: center; align-items: center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
 <div style="width: 500px; height: 500px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-    <form method="post" class="login">
+    <form method="post">
         <input list="weapons" name="weapons">
         <datalist id="weapons">
             <option value="rock">
