@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Guess the Number</title>
 </head>
-<body>
+<body style="height: 100vh; margin: 0; display: flex; justify-content:center; align-items:center;">
     <div style="display:inline-block; width:300px; height:300px; align-items: center; justify-content: center;">
         <h3>Choose a number between 1 - 10</h3>
         <form method="post">
