@@ -6,7 +6,7 @@ function getUserChoice($userInput) {
         return $userInput;
     }
     else {
-        echo '{$userInput} is not a valid weapon, my guy';
+        echo $userInput . ' is not a valid weapon, my guy';
         return;
     }
 };
