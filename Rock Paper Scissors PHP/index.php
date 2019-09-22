@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rock Paper Scissors</title>
 </head>
-<body style="height: 100vh; margin: 0; display:flex; justify-content: center; align-items: center;">
+<body style="height: 100vh; margin: 0; display:flex; justify-content: center; align-items: center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
 <div style="width: 500px; height: 500px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
     <form method="post" class="login">
         <input list="weapons" name="weapons">

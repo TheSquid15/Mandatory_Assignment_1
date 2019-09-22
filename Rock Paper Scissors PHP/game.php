@@ -2,11 +2,11 @@
 function getUserChoice($userInput) {
     strtolower($userInput);
 
-    if ($userInput === 'rock' || $userInput === 'scissors' || $userInput === 'paper' || $userInput === 'dynamite') {
+    if ($userInput === 'rock' || $userInput === 'scissors' || $userInput === 'paper' || $userInput === 'dynamite' || $userInput === 'lazer pistol') {
         return $userInput;
     }
     else {
-        echo $userInput . ' is not a valid weapon, my guy';
+        echo '<h3>' . $userInput . ' is not a valid weapon, my guy</h3>';
         return;
     }
 };
@@ -102,6 +102,9 @@ function battle($userChoice, $computerChoice) {
     }
     else if ($userChoice === 'dynamite') {
         return 'Well, not much your foe can do against suicide bombing, it\'s a draw';
+    }
+    else if ($userChoice === 'lazer pistol') {
+        return 'You take the lazer pistol you had hidden in your pants out and with a quick pull of the trigger, you incinerate your foe';
     }
 };
 
